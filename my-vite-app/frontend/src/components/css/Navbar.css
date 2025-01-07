@@ -1,0 +1,35 @@
+
+.navbar{
+    background-color:  rgb(0, 0, 0);
+    padding: 10px;
+    margin: 0px;
+    border: 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.navbar ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar li {
+    padding-left: 20px;
+    border-radius: 20px;
+    padding: 8px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.navbar ul :hover{
+    
+    transition: 0.8s;
+}
+.logo{
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border:outset 2px rgb(255, 255, 255) ;
+    padding-left: 10px;
+    padding-right: 10px;
+}

@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.row{
+    display: flex;
+    padding: 20px;
+    margin: 30px;
+}
+.row .col1{
+    color: tomato;
+    border: 10px offset;
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.row .col2{
+    color: rgb(0, 0, 0);
+    border: 10px offset;
+    margin: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.welcome{
+    background-color: rgb(3, 3, 32);
+    color:  rgb(3, 3, 32);
+}
+.table h2{
+    color: beige;
+}
