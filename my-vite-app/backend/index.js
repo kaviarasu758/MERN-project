@@ -23,11 +23,11 @@ app.get('/',(req,res)=>{
     res.send("hello")
 })
 
-app.post('/signUp',(req,res)=>{
+app.post('/signUp',async(req,res)=>{
     
     try{
         var newUser = new User(req.body)
-        newUser.save()
+       await newUser.save()
         res.status(200).send("data added")
     }
     catch(err){

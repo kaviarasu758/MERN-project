@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import { Navigate, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 
 var SignUp = () => {
   var [userName, setUserName] = useState("");
@@ -10,7 +10,7 @@ var SignUp = () => {
   var signUp = async (e) => {
     console.log("inside");
     e.preventDefault();
-    var req = await axios.post('  /signUp', {
+    var req = await axios.post('http://localhost:3000/signUp', {
         userName: userName,
         password: password,
       })
